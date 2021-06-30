@@ -428,6 +428,87 @@ img{
     justify-content: space-between;
     margin-bottom: var(--mb-0-5);
 }
+
+.skills__name{
+    font-size: var(---normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills__bar,
+.skills__percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills__bar{
+    background-color: var(--first-color-lighter);
+}
+
+.skills__percentage{
+    display:block;
+    background-color: var(--first-color);
+}
+
+.skills__list{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+
+.skills__html{
+    width: 90%;
+}
+
+.skills__css{
+    width: 30%;
+}
+
+.skills__js{
+    width: 30%;
+}
+
+
+.skills__vue{
+    width: 40%;
+}
+
+.skills__node{
+    width: 50%;
+}
+
+.skills__net{
+    width: 70%;
+}
+
+.skills__firebase{
+    width: 20%;
+}
+
+.skills__sketch{
+    width: 40%;
+}
+
+.skills__invision{
+    width: 30%;
+}
+
+.skills__figma{
+    width: 15%;
+}
+
+.skills__close .skills__list{
+    height:0;
+    overflow: hidden;
+}
+
+.skills__open .skills__list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow{
+    transform: rotate(-180deg);
+}
+
 /*qualification*/
 
 /*services*/
