@@ -573,6 +573,11 @@ img{
     background-color: var(--first-color);
     transform: translate(6px,-7px);
 }
+
+/*.qualification__content{
+    margin-left: var(--mb-1-5);
+}*/
+
 /*
 .qualification [data-content]{
     display:none;
