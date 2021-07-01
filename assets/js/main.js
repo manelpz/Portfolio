@@ -8,7 +8,9 @@ const navMenu = document.getElementById('nav-menu'),
 
 if(navToggle){
     navToggle.addEventListener('click',()=>{
+        console.log('aqui')
         navMenu.classList.add('show-menu')
+        console.log('aqui 2')
     })
 }
 
@@ -86,6 +88,7 @@ let modal = function(modalClick) {
 
 modalBtns.forEach((modalBtn,i)=>{
     modalBtn.addEventListener('click', () =>{
+        //console.log('valor '+ i)
         modal(i)
     })
 })
