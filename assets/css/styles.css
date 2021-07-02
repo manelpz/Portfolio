@@ -734,7 +734,76 @@ img{
 .portfolio__button:hover .button__icon{
     transform: translateX(.25rem);
 }
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    content:'';
+}
+
+.swiper-portfolio-icon{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.swiper-button-prev{
+    left: -0.5rem;
+}
+
+.swiper-button-next{
+    right: -0.5rem;
+}
+
+.swiper-container-horizontal >.swiper-pagination-bullets{
+    bottom: -2.5rem;
+}
+
+.swiper-pagination-bullets-active{
+    background-color: var(--first-color);
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullets{
+    outline:none;
+}
 /*project in mind*/
+
+.project{
+    text-align: center;
+}
+
+.project__bg{
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.project__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project__description{
+    margin-bottom:var(--mb-1-5);
+}
+
+.project__title,
+.project__description{
+    color:#fff;
+}
+
+.project__img{
+    width: 232px;
+    justify-self: center;
+}
+
+.button--white{
+    background-color:#fff;
+    color: var(--first-color);
+}
+
+.button--white:hover{
+    background-color:#fff;
+}
 
 /*testimonial*/
 
