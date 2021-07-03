@@ -895,6 +895,23 @@ img{
 }
 /*footer*/
 
+.footer{
+    padding-top: 2rem;
+}
+
+.footer__container{
+    row-gap: 3.5rem;
+}
+
+.footer__bg{
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+}
+
+.footer__title{
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
 /*scroll up*/
 
 /******Show scroll*****/
