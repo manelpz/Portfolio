@@ -1017,6 +1017,14 @@ body.dark-theme{
     --container-color: hsl(var(--hue-color),29%,16%)
 }
 
+/*scroll bar*/
+
+::-webkit-scrollbar{
+    width: .60rem;
+    background-color:var(--scroll-bar-color);
+    border: radius 0.5rem;
+}
+
 /******MEDIA QUERIES*****/
 
 /*for small devices*/
