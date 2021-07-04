@@ -20,7 +20,8 @@
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 69%, 99%);
     --container-color: #fff;
-
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
     /*font and typography*/
 
     --body-font: 'Poppins', sans-serif;
