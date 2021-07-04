@@ -8,9 +8,9 @@ const navMenu = document.getElementById('nav-menu'),
 
 if(navToggle){
     navToggle.addEventListener('click',()=>{
-        console.log('aqui')
+        //console.log('aqui')
         navMenu.classList.add('show-menu')
-        console.log('aqui 2')
+        //console.log('aqui 2')
     })
 }
 
@@ -134,7 +134,8 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
     }
   });
 
-/*scroll sections active link*/
+
+/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -146,11 +147,22 @@ function scrollActive(){
         sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+            // error
             console.log('valor')
             console.log(sectionId)
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
-        }else{
+            
+            //if(!document.querySelector('.nav__menu a[href*=' + sectionId + ']') === null){
+                console.log(document.querySelector('.nav__menu a[href*=' + sectionId + ']'))
+                document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
+            //}
+            //document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
+        }else
+        {
+            console.log(document.querySelector('.nav__menu a[href*=' + sectionId + ']'))
+            //Error
+            //if(!document.querySelector('.nav__menu a[href*=' + sectionId + ']') === null){
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
+            //}
         }
     })
 }
