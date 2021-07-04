@@ -147,22 +147,10 @@ function scrollActive(){
         sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-            // error
-            console.log('valor')
-            console.log(sectionId)
-            
-            //if(!document.querySelector('.nav__menu a[href*=' + sectionId + ']') === null){
-                console.log(document.querySelector('.nav__menu a[href*=' + sectionId + ']'))
-                document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
-            //}
-            //document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
+            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
         }else
         {
-            console.log(document.querySelector('.nav__menu a[href*=' + sectionId + ']'))
-            //Error
-            //if(!document.querySelector('.nav__menu a[href*=' + sectionId + ']') === null){
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
-            //}
+            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')    
         }
     })
 }
