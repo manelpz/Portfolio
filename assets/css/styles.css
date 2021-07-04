@@ -981,13 +981,26 @@ img{
     color:#fff;
 }
 
+/******Show scroll*****/
 .show-scroll{
     bottom: 5rem;
 }
-/******Show scroll*****/
 
 /*scroll bar*/
 
+/*button dark/light*/
+
+.nav__btns{
+    display:center;
+    align-items: center;
+}
+
+.change-theme{
+    font-size: 1.25rem;
+    color: var(--title-color);
+    margin-right: var(--mb-1);
+    cursor: pointer;
+}
 
 /******MEDIA QUERIES*****/
 
