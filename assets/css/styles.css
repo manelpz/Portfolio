@@ -21,7 +21,7 @@
     --body-color: hsl(var(--hue-color), 69%, 99%);
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 60%);
     /*font and typography*/
 
     --body-font: 'Poppins', sans-serif;
@@ -1016,7 +1016,7 @@ body.dark-theme{
     --body-color: hsl(var(--hue-color), 28%, 12%);
     --container-color: hsl(var(--hue-color),29%,16%);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 16%);
 }
 
 /*scroll bar*/
@@ -1031,9 +1031,36 @@ body.dark-theme{
     background-color:var(--scroll-thumb-color);
     border-radius: .5rem;
 }
+
+::-webkit-scrollbar-thumb:hover{
+    background-color:var(--text-color-light);
+}
 /******MEDIA QUERIES*****/
 
 /*for small devices*/
+@media screen and (max-width:350px){
+    .container{
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+
+    .nav__menu{
+        padding: 2rem .25rem 4rem;
+    }
+
+    .nav__list{
+        column-gap: 0;
+    }
+
+    .home__content{
+        grid-template-columns: .25fr 3fr;
+    }
+
+    .home__blob{
+        width: 180px;
+    }
+    
+}
 
 /*for medium devices*/
 
