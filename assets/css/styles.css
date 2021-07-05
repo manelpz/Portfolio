@@ -1191,4 +1191,52 @@ body.dark-theme{
     .change-theme{
         margin: 0;
     }
+
+    .home__container{
+        row-gap:0;
+    }
+
+    .home__content{
+        padding-top: 5.5rem;
+        column-gap:2rem;
+    }
+
+    .home__blob{
+        width: 270px;
+    }
+
+    .home__scroll{
+        display: block;
+    }
+    .home__scroll-button{
+        margin-left: 3rem;
+    }
+/*
+    .about__container{
+        column-gap:5rem;
+    }
+
+    .about__img{
+        width: 350px;
+    }
+
+    .about__description{
+        text-align:initial;
+    }
+
+    .about__info{
+        justify-content: space-between;
+    }
+
+    .about__buttons{
+        justify-content: initial;
+    }
+
+    .qualification__button{
+        margin: 0 var(--mb-1);
+    }
+
+    .qualification__sections{
+        grid-template-columns:.5fr;
+    }*/
 }
