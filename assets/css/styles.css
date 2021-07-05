@@ -1316,3 +1316,40 @@ body.dark-theme{
 }
 
 /*Adding media long screen*/
+
+@media screen and (min-width:1024px){
+    .header,
+    .main,
+    footer__container{
+        padding:0;
+    }
+
+    .home__blob{
+        width: 320px;
+    }
+
+    .home__social{
+        transform: translateX(-6rem);
+    }
+
+    .services__container{
+        grid-template-columns: repeat(3,238px);
+    }
+
+    .portfolio__content{
+        column-gap: 5rem;
+    }
+
+    .swiper-portfolio-icon{
+        font-size: 3.5rem;
+    }
+
+    .swiper-button-prev{
+        left: -3.5rem;
+    }
+
+    .swiper-button-next{
+        right: -3.5rem;
+    }
+    
+}
