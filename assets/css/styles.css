@@ -1303,10 +1303,16 @@ body.dark-theme{
 
     .footer__link{
         flex-direction: row;
-        column-gap: 2rem;
+        column-gap: 4rem;
     }
 
     .footer__socials{
         justify-self: flex-end;
     }
+
+    .footer__copy{
+        margin-top:4.5rem;
+    }
 }
+
+/*Adding media long screen*/
