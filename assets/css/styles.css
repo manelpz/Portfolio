@@ -1211,7 +1211,7 @@ body.dark-theme{
     .home__scroll-button{
         margin-left: 3rem;
     }
-/*
+
     .about__container{
         column-gap:5rem;
     }
@@ -1232,11 +1232,15 @@ body.dark-theme{
         justify-content: initial;
     }
 
+    .qualification__tabs{
+        justify-content: center;
+    }
+
     .qualification__button{
         margin: 0 var(--mb-1);
     }
 
     .qualification__sections{
         grid-template-columns:.5fr;
-    }*/
+    }
 }
