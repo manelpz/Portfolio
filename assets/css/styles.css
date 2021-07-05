@@ -1135,6 +1135,10 @@ body.dark-theme{
             grid-template-columns: .6fr;
             justify-content:center;
         }
+
+        .qualification__sections{
+            padding: 0px 160px 0px 160px;
+        }
 }
 
 /*for large devices*/
@@ -1351,5 +1355,15 @@ body.dark-theme{
     .swiper-button-next{
         right: -3.5rem;
     }
-    
+    .swiper-container-horizontal >.swiper-pagination-bullets{
+        bottom:-4.5rem;
+    }
+
+    .contact__form{
+        width: 460px;
+    }
+
+    .contact__inputs{
+        grid-template-column: repeat(2, 1fr);
+    }
 }
