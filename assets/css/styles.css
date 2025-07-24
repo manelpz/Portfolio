@@ -107,7 +107,7 @@ a{
 }
 
 img{
-    max-width: 100%;
+    max-width: 61%;
     height: auto;
 }
 /*reusable css class*/
@@ -268,7 +268,7 @@ img{
 }
 
 .home__blob-img{
-    width: 170px;
+    width: 188px;
 }
 
 .home__data{
